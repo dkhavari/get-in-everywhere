@@ -14,3 +14,5 @@ app.config['MONGODB_SETTINGS'] = {
 	'password': 'gunda'
 }
 db = MongoEngine(app)
+
+import views
