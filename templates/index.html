@@ -8,21 +8,89 @@
 
 <title>Get In Everywhere – Admissions Secrets from a Stanford Student Who Got In Everywhere</title>
 
-<!-- Bootstrap core CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-<link href='https://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
-<link href="static/css/invest.css" type='text/css' rel='stylesheet'>
-
-<!-- JQuery Autocomplete Stuff -->
-<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
-<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
-<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+{% include 'frontend.html' %}
 
 </head>
 
-<body>
+<body style="background-image: url('http://cloud.theamazingstation.com/post/image/13855319304661247.jpg')">
 
-	<h1>Hello there, love!</h1>
+	{% include 'navbar.html' %}
+
+	<div class="container" style="padding-top: 80px;">
+
+		<div class="row">
+			<div class="col-md-6">
+				<h1 class="block-text red">Welcome to <i>Get In Everywhere</i>.</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<h1 class="block-text red">I'm Dave, a senior at Stanford. I was accepted by all of my dream schools: Stanford, Harvard, and Princeton. Now I'd like to help you get into your dream school.</h1>
+			</div>
+		</div>
+
+	</div>
+
+	<div style="margin-top: 80px; background-color: rgba(255, 255, 255, 0.8)">
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12" style="text-align: center">
+					<h1>
+						<span class="block-text white">
+							Latest Blog Posts
+						</span>
+					</h1>
+				</div>
+			</div>
+
+			<div class="row" style="margin-bottom: 20px">
+
+				<div class="col-md-4" style="text-align: center;">
+					<h3 class="block-text white" style="margin-bottom: 0">
+						How I Chose: Stanford, Harvard, and Princeton.
+					</h3>
+					<div class="block-text white" style="margin-top: 0">
+						<img style="width: 100%" src="http://distilleryimage9.ak.instagram.com/9551d8601ad711e2ae7d123138178d20_7.jpg">
+					</div>
+				</div>
+
+				<div class="col-md-4" style="text-align: center">
+					<h3 class="block-text white" style="margin-bottom: 0">
+						How I Aced the SAT and Why You Can Too (2370/2400).
+					</h3>
+					<div class="block-text white" style="margin-top: 0">
+						<img style="width: 100%" src="http://photos-a.ak.instagram.com/hphotos-ak-xfa1/t51.2885-15/10693666_277672175766832_1746964506_n.jpg">
+					</div>
+				</div>
+
+				<div class="col-md-4" style="text-align: center">
+					<h3 class="block-text white" style="margin-bottom: 0">
+						Getting Into Elite Universities: Method and Mindset.
+					</h3>
+					<div class="block-text white" style="margin-top: 0">
+						<img style="width: 100%" src="http://distilleryimage0.ak.instagram.com/d8e0320698a111e1af7612313813f8e8_7.jpg">
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+	<!-- Javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+	<script>
+	$('.chevron_toggleable').on('click', function() {
+		$('#customdd').toggleClass('glyphicon-chevron-up glyphicon-chevron-down ');
+	});
+	</script>
 
 </body>
 
