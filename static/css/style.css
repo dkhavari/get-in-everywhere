@@ -1,0 +1,65 @@
+/* Navbar Styles */
+.navbar {
+	font-family: 'Gilda Display', serif;
+	background-color: #C41E3A;
+	border-width: 0;
+	border: none;
+
+
+}
+
+#navbar > ul > li > a {
+	color: white;
+}
+
+#brand {
+	color: white;
+}
+
+.navbar-brand:hover {
+	color: white;
+}
+
+#navbar {
+	border-width: 0;
+	border-color: #C41E3A;
+}
+
+/* Text Styles */
+.block-text {
+	font-family: 'Gilda Display', serif;
+	color: white;
+	padding: 10px;
+}
+
+.red {
+	background-color: rgba(196, 30, 58, 0.8);
+}
+
+.white {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+}
+
+h1, h2 {
+	font-family: 'Gilda Display', serif;
+}
+
+/* Button Styles */
+#freshbtn {
+	color: white;
+	border-radius: 0;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	background: transparent;
+}
+
+#freshbtn:hover {
+	color: #A93333;
+	border-color: black;
+	background: black;
+}
+
+/* Selection */
+::selection {} /* Decide if I want to do anything here. */
