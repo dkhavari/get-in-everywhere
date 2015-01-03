@@ -41,8 +41,52 @@
 	color: black;
 }
 
+.title {
+	background-color: #C41E3A;
+	color: white;
+}
+
 h1, h2 {
 	font-family: 'Gilda Display', serif;
+}
+
+.copy {
+	margin-bottom: 0;
+}
+
+.seamless {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Quotes */
+.quote {
+	text-align: center;
+	color: #C41E3A;
+}
+
+.quote-author {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* Image Overlay Styles */
+.overlay-white {
+	background: rgba(255,255,255,0.8);
+	overflow: scroll;
+	height: 100%;
+	z-index: 2;
+}
+
+/* Positioning Styles */
+.center-sensitive-square {
+	width: 75%;
+	margin: 0 auto;
+	max-width: 640px;
+	max-height: 640px;
 }
 
 /* Button Styles */
@@ -62,4 +106,8 @@ h1, h2 {
 }
 
 /* Selection */
-::selection {} /* Decide if I want to do anything here. */
+::selection {
+	color: white;
+	background-color: #C41E3A;
+
+} /* Decide if I want to do anything here. */
